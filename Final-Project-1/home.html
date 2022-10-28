@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>NyuciYuk</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="true"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <img
+            src="images/mesincuci.png"
+            alt=""
+            width="40"
+            height="30"
+            class="d-inline-block align-text-top"
+          />
+          NyuciYuk!
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="./home.html"
+              >Home</a
+            >
+            <a class="nav-link" href="./pages/portofolio.html">Portofolio</a>
+            <a class="nav-link" href="./pages/blog.html">Blog</a>
+            <a class="nav-link" href="./pages/contact.html">Contact</a>
+            <a class="nav-link" href="#aboutUs">About</a>
+            <a class="nav-link" href="./pages/To-Do-List.html">To Do List</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+<!-- Navbar End -->
+
+<!-- Carousel -->
+    <section class="carousel-header">
+      <div class="container">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-between">
+                <div class="col-sm-12 col-lg-6">
+                  <h2>Cuci Satuan</h2>
+                  <p>
+                    Cuci satuan bisa menjadi solusi bagi mereka yang hanya butuh
+                    mencuci salah satu pakaian atau bahan tertentu namun dengan
+                    jumlah sedikit tanpa harus mencampurnya dengan pakaian
+                    lainnya. Harga bisa terhitung relatif lebih murah, apabila
+                    pelanggan hanya memberikan satu-dua pakaian atau bahan.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Order Now!
+                  </button>
+                </div>
+                <div class="col-sm-12 col-lg-5">
+                  <img
+                    src="./images/cuci-satuan.jpg"
+                    alt=""
+                    class="img-fluid rounded d-none d-lg-block"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row align-self-center justify-content-between">
+                <div class="col-sm-12 col-lg-6">
+                  <h2>Cuci Kering</h2>
+                  <p>
+                    Dry cleaning (cuci kering) adalah metode pencucian tanpa
+                    menggunakan air sama sekali. Sebagai gantinya, proses dry
+                    cleaning menggunakan cairan solvent berupa perkloroetilena
+                    (PCE) atau tetrakloroetilena untuk membersihkan kotoran pada
+                    pakaian.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Order Now!
+                  </button>
+                </div>
+                <div class="col-sm-12 col-lg-5">
+                  <img
+                    src="./images/cuci-kering.jpeg"
+                    alt=""
+                    class="img-fluid rounded d-none d-lg-block"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row align-self-center justify-content-between">
+                <div class="col-sm-12 col-lg-6">
+                  <h2>Cuci Kiloan</h2>
+                  <p>
+                    Cuci kiloan adalah jasa laundry yang menghitung kuantitas
+                    pakaian berdasarkan satuan kilogram. Jenis laundry ini cocok
+                    untuk pencucian pakaian dalam jumlah banyak, misalnya
+                    pakaian sehari-hari yang dikumpulkan selama satu minggu.
+                    jasa laundry cuci kiloan kami menetapkan harga sebesar Rp
+                    6.500 hingga Rp 9.000 per satu kilogram pakaian.
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
+                      Order Now!
+                    </button>
+                  </p>
+                </div>
+
+                <div class="col-sm-12 col-lg-5">
+                  <img
+                    src="./images/cuci-kiloan.jpg"
+                    alt=""
+                    class="img-fluid rounded d-none d-lg-block"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Carousel End -->
+
+    <!-- Content -->
+    <h1 class="heading mt-5">Jasa Laundry Kami</h1>
+    <section class="content-portofolio mt-5">
+      <div class="container">
+        <div class="row justify-content-center" data-aos="fade-up">
+          <div class="col-md-4 text-center col-12"></div>
+        </div>
+        <div class="row justify-content-start">
+          <div class="col-md-4 mb-4 col-12 py-2">
+            <div class="frame-image">
+              <img src="./images/cuci-kiloan.jpg" alt="" />
+            </div>
+            <div class="content-image mt-3">
+              <div class="title">Laundry Kiloan</div>
+              <div class="sub-title">Pakaian</div>
+              <div class="description">
+                Jasa laundry baju kiloan di ciputat dan 
+                sekitarnya, cocok untuk pakaian sehari-hari.
+                Sudah termasuk cuci, gosok dan lipat. Bisa antar-jemput.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 col-12 py-2">
+            <div class="frame-image">
+              <img src="./images/cuci-satuan.jpg" alt="" />
+            </div>
+            <div class="content-image mt-3">
+              <div class="title">Laundry Satuan</div>
+              <div class="sub-title">Pakaian</div>
+              <div class="description">
+                Jasa laundry satuan seperti kemeja, jas dll. 
+                Sangat cocok untuk pakaian spesial anda. 
+                Pengerjaan yang detail, bersih  dengan harga terjangkau.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 col-12 py-2">
+            <div class="frame-image">
+              <img src="./images/cuci-karpet.jpg" alt="" />
+            </div>
+            <div class="content-image mt-3">
+              <div class="title">Laundry Karpet</div>
+              <div class="sub-title">Karpet</div>
+              <div class="description">
+                Kami mengerjakan cuci karpet rumah, 
+                masjid dan cuci karpet kantor wilayah Jabodetabek, 
+                kami siap datang ke lokasi.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 col-12 py-2">
+            <div class="frame-image">
+              <img src="./images/cuci-sofa.jpg" alt="" />
+            </div>
+            <div class="content-image mt-3">
+              <div class="title">Laundry Sofa & Spring Bed</div>
+              <div class="sub-title">Sofa and Spring bed</div>
+              <div class="description">
+                Kami mengerjakan cuci sofa, kursi kantor, spring bed dll. 
+                Khusus jabodetabek kami menerima order laundry panggilan.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 col-12 py-2">
+            <div class="frame-image">
+              <img src="./images/cuci-sepatu.jpg" alt="" />
+            </div>
+            <div class="content-image mt-3">
+              <div class="title">Laundry Sepatu</div>
+              <div class="sub-title">Sepatu</div>
+              <div class="description">
+                Ingin sepatu anda selalu bersih dan wangi, 
+                kami akan membersihkan dan memberikan perawatan 
+                pada sepatu kesayangan anda.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 col-12 py-2">
+            <div class="frame-image">
+              <img src="./images/cuci-perlengkapan-bayii.jpg" alt="" />
+            </div>
+            <div class="content-image mt-3">
+              <div class="title">Laundry Perlengkapan Bayi</div>
+              <div class="sub-title">Perlengkapan Bayi</div>
+              <div class="description">
+                Laundry perlengkapan bayi anda seperti stroller, 
+                box bayi dengan harga terjangkau, bersih, cepat 
+                dan kami melayani antar jemput.
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- Content End -->
+
+    <!-- About Us -->
+    <section id="aboutUs" class="About-us mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-12">
+            <img src="./images/cuci-about.jpeg" alt="" />
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="About-teks">
+              <h1>About Us</h1>
+              <h5>Kelompok 3</h5>
+              <p>
+                NyuciYuk! adalah suatu perusahaan yang bergelut di bidang Jasa Laundry.
+                Berlokasi di daerah Karawang, kami untuk membantu menyelesaikan masalah 
+                laundry anda dengan cepat serta ringan dikantong. Terdapat berbagai layanan 
+                yang kami sediakan diantaranya adalah Cuci Satuan, Cuci Kiloan, Cuci Kering,
+                Cuci Karpet, Cuci Sofa, Cuci Sepatu dan Cuci perlengkapan bayi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us End -->
+
+    <!-- Order Now -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <table class="table table-striped table-hover">
+              <thead>
+                <tr>
+                  <th scope="col">No</th>
+                  <th scope="col">JASA</th>
+                  <th scope="col">BIAYA</th>
+                  <th scope="col">WAKTU PENGERJAAN</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Laundry Satuan</td>
+                  <td>Rp. 6.000</td>
+                  <td>1 Hari</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Laundry Kiloan</td>
+                  <td>Rp. 12.000</td>
+                  <td>3 Hari</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Laundry Karpet</td>
+                  <td>Rp. 25.000</td>
+                  <td>3 Hari</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Laundry Sofa & Spring Bed</td>
+                  <td>Rp. 25.000</td>
+                  <td>7 Hari</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Laundry Sepatu</td>
+                  <td>Rp. 15.000</td>
+                  <td>2 Hari</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>Laundry Perlengkapan Bayi</td>
+                  <td>Rp. 50.000</td>
+                  <td>7 Hari</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <a href="./pages/contact.html"
+              ><button type="button" class="btn btn-primary">
+                Order Now!
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Order Now End -->
+
+    <!-- Footer -->
+    <footer class="bg-light mt-5">
+      <div class="container-lg">
+        <div class="py-4">
+          <div class="row">
+          <div class="col-md-6 text-start">
+            Copyright &copy; Kelompok 3
+          </div>
+          <div class="col-md-6 text-end">
+            Develop by Rifki - Anisa - Naba
+          </div>
+          </div>
+         </div>
+        </div>
+      </div>
+  </footer>
+  <!-- Footer End -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
