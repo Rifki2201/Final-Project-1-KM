@@ -1,2 +1,2 @@
 # Final-Project-1-KM
-Link Heroku: https://final-project-1-laundry.herokuapp.com/
+Link Netlify: http://final-project-1-kel-3-inpg-ks-006.netlify.app/
